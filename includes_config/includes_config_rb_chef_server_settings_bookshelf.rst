@@ -43,5 +43,8 @@ This configuration file has the following settings:
 ``bookshelf['svlogd_size']``
    |svlogd_size| Default value: ``1000000``.
 
-``bookshelf['url']``
-   This value will default to the value of the URL for |nginx|, which is built from the configured ``api_fqdn`` and the SSL port for |nginx|.
+``bookshelf['vip']``
+   This value will default to the value of the URL for |nginx|, which is built from the configured ``api_fqdn``.
+
+``bookshelf['vip_port']``
+   The port on which the Virtual IP will listen. Default value: ``443``.
